@@ -1,0 +1,10 @@
+﻿# 构建产物 / 运行时数据（不进版本库）
+dist/
+_stage/
+data/
+*.zip
+_o.txt
+_e.txt
+tmp/
+_probe/
+node_modules/
