@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="__JJ_THEME__">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="jj-token" content="__JJ_TOKEN__">
+<meta name="jj-version" content="__JJ_VERSION__">
+<title>净界 · 系统清理与优化</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo" id="brandLogo"></div>
+      <div>
+        <div class="brand-name">净界</div>
+        <div class="brand-sub">JingJie</div>
+      </div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidebar-foot">
+      <button class="theme-toggle" id="themeBtn" title="切换深色 / 浅色"></button>
+      <div class="sys-chip" id="sysChip">
+        <span class="dot"></span><span>正在读取系统信息…</span>
+      </div>
+      <div class="sys-chip" style="background:transparent;border-color:transparent;padding:2px 10px">
+        <span class="dim" id="verLine">v__JJ_VERSION__</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar" id="topbar">
+      <div class="title" id="pageTitle">首页</div>
+      <div class="sub" id="pageSub"></div>
+      <div class="spacer"></div>
+      <button class="win-btn" id="btnMin"></button>
+      <button class="win-btn" id="btnMax"></button>
+      <button class="win-btn close" id="btnClose"></button>
+    </header>
+    <main class="view" id="view"><div class="view-inner" id="viewInner"></div></main>
+  </div>
+</div>
+
+<div id="toasts" class="toast-wrap"></div>
+<div id="overlay"></div>
+
+<script src="js/icons.js"></script>
+<script src="js/app.js"></script>
+<script src="js/toolkit.js"></script>
+</body>
+</html>
